@@ -108,6 +108,38 @@
       <form>
         <input type="text" placeholder="Name" required />
         <input type="email" placeholder="Email" required />
+
+        <label for="branch">Select Branch:</label>
+        <select id="branch" name="branch" required>
+          <option value="">--Choose Branch--</option>
+          <option value="computer">Computer Engineering</option>
+          <option value="it">Information Technology</option>
+          <option value="ec">Electronics & Communication</option>
+          <option value="mech">Mechanical Engineering</option>
+          <option value="civil">Civil Engineering</option>
+        </select>
+
+        <fieldset>
+          <legend>Select Hobbies:</legend>
+          <label
+            ><input type="checkbox" name="hobby" value="reading" />
+            Reading</label
+          >
+          <label
+            ><input type="checkbox" name="hobby" value="traveling" />
+            Traveling</label
+          >
+          <label
+            ><input type="checkbox" name="hobby" value="coding" /> Coding</label
+          >
+          <label
+            ><input type="checkbox" name="hobby" value="gaming" /> Gaming</label
+          >
+          <label
+            ><input type="checkbox" name="hobby" value="music" /> Music</label
+          >
+        </fieldset>
+
         <textarea placeholder="Message" required></textarea>
         <button type="submit">Send</button>
       </form>
