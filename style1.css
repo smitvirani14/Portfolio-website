@@ -273,3 +273,35 @@ footer {
   color: #555;
   line-height: 1.5;
 }
+.contact select {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background: #fff;
+  cursor: pointer;
+  font-family: inherit;
+  transition: border-color 0.25s ease;
+}
+.contact select:focus {
+  border-color: #0077cc;
+  outline: none;
+}
+
+.contact fieldset {
+  border: none;
+  padding: 0;
+}
+.contact legend {
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #222;
+}
+.contact label {
+  display: inline-block;
+  margin-right: 15px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.contact input[type="checkbox"] {
+  margin-right: 6px;
+}
